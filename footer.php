@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package _s
+ * @package wpdemo
  */
 
 ?>
@@ -21,7 +21,7 @@
 		<div class="wrap">
 
 			<div class="site-info">
-				<?php _s_do_copyright_text(); ?>
+				<?php wpdemo_do_copyright_text(); ?>
 			</div><!-- .site-info -->
 
 		</div><!-- .wrap -->

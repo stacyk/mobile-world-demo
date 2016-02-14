@@ -4,7 +4,7 @@
  *
  * Eventually, some of the functionality here could be replaced by core features.
  *
- * @package _s
+ * @package wpdemo
  */
 
 /**
@@ -13,7 +13,7 @@
  * @param array $classes Classes for the body element.
  * @return array
  */
-function _s_body_classes( $classes ) {
+function wpdemo_body_classes( $classes ) {
 
 	global $is_IE;
 
@@ -42,7 +42,7 @@ function _s_body_classes( $classes ) {
 
 	return $classes;
 }
-add_filter( 'body_class', '_s_body_classes' );
+add_filter( 'body_class', 'wpdemo_body_classes' );
 
 /**
  * Adds a fallback for wds_page_builder_area() if PageBuilder is not available

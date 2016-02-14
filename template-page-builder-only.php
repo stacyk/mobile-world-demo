@@ -2,7 +2,7 @@
 /**
  * Template Name: Page Builder Only
  *
- * @package _s
+ * @package wpdemo
  */
 
 get_header(); ?>
