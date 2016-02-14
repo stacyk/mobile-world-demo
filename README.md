@@ -1,4 +1,4 @@
-wd_s
+wd_s theme framework used as a base for this demo 
 ===
 
 [WebDevStudios](http://webdevstudios.com) fork of Automattic's [_s](https://github.com/Automattic/_s). Used as our new project theme boilerplate. Pull requests are welcome!
